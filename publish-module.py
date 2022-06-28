@@ -4,11 +4,11 @@
 import requests
 import os
 
-org = "swhashi"
-module_name = "apitest"
-module_provider = "aws"
-version = "1.0.0"
-code = "../terraform-aws-apitest/module.tar.gz"
+org = "<organization name>"
+module_name = "<module name>"
+module_provider = "<module provider>"
+version = "<module version>"
+code = "<path to tarball of repository>"
 
 def create_module(org, module_name, module_provider):
     "Create a new module in the registry"
